@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include <Metro.h>
 #include <Servo.h>
+#include "kinmatics.hpp"
 
 #define NUM_SERVO   8
 
@@ -22,8 +23,17 @@ Servo BLR_Servo;
 Servo BRL_Servo;
 Servo BRR_Servo;
 
-Servo *servoList[NUM_SERVO] = {&FLL_Servo, &FLR_Servo, &FRL_Servo, &FRR_Servo,
-                               &BLL_Servo, &BLR_Servo, &BRL_Servo, &BRR_Servo};
+legParam_t testParam = {
+
+    0,          //actuator distance
+    0.05,       //length A1
+    0.095,      //length A2
+    0.05,       //length B1
+    0.095       //lenght B2
+
+};
+
+Leg testLeg = Leg(FLL_Servo, FLR_Servo, testParam);
 
 Metro driveMetro = Metro(50);
 
@@ -31,29 +41,22 @@ void setup() {
 
     pinMode(LED_BUILTIN, OUTPUT);
 
-    FLL_Servo.attach(FLL_PIN);
-    FLR_Servo.attach(FLR_PIN);
-    FRL_Servo.attach(FRL_PIN);
-    FRR_Servo.attach(FRR_PIN);
-    BLL_Servo.attach(BLL_PIN);
-    BLR_Servo.attach(BLR_PIN);
-    BRL_Servo.attach(BRL_PIN);
-    BRR_Servo.attach(BRR_PIN);
+    testLeg.attach(FLL_PIN, FLR_PIN);
+    testLeg.reset();
 
 }
 
 uint8_t deg = 80;
+float x = 0;
+float y = 0.1;
+bool calcSuccess;
 
 void loop() {
 
     if (driveMetro.check() == 1)
     {
         digitalWriteFast(LED_BUILTIN, !digitalReadFast(LED_BUILTIN));
-
-        for (uint8_t i = 0; i < NUM_SERVO; i++)
-        {
-            servoList[i]->write(deg);
-        }
+        calcSuccess = testLeg.travel(x, y);
     }
     
 }
