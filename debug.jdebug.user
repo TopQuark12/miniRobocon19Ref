@@ -1,0 +1,14 @@
+OpenDocument="main.cpp", FilePath="C:\users\alex wong\.platformio\packages\framework-arduinoteensy\cores\teensy3\main.cpp", Line=20
+OpenDocument="mainArd.cpp", FilePath="c:\PlatformIO\miniRoboconRef19\src\mainArd.cpp", Line=0
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Source Files", DockArea=LEFT, x=0, y=0, w=417, h=296, FilterBarShown=1
+OpenWindow="Disassembly", DockArea=LEFT, x=0, y=1, w=417, h=301, FilterBarShown=0, ExecCountersShown=0
+OpenWindow="Source", x=0, y=0, w=0, h=0, FilterBarShown=0, ExecCountersShown=0
+OpenWindow="Watched Data", DockArea=RIGHT, x=0, y=0, w=562, h=598, FilterBarShown=0
+OpenWindow="Data Graph", DockArea=BOTTOM, x=0, y=0, w=1920, h=346, FilterBarShown=0, VisibleTab=0, SamplingFreq=1 kHz, ClearEvent=RESUME
+OpenWindow="Console", DockArea=BOTTOM, x=0, y=0, w=1920, h=346, FilterBarShown=0
+TableHeader="Watched Data", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Size";"Refresh";"Type";"Access"], ColWidths=[151;173;73;35;54;76;45]
+TableHeader="DataGraphSamples", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time                    "], ColWidths=[77;48]
+TableHeader="Data Graph", SortCol="Expression", SortOrder="DESCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[194;67;196;196;196;91;78;98;89]
+TableHeader="tableWidgetSamples", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Channel 0"], ColWidths=[72;102;108]
+TableHeader="Source Files", SortCol="File", SortOrder="ASCENDING", VisibleCols=["File";"Status";"Size";"#Insts";"Path"], ColWidths=[150;86;66;84;926]
