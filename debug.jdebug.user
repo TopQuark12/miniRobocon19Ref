@@ -1,15 +1,24 @@
+OpenDocument="core_pins.h", FilePath="C:\users\alex wong\.platformio\packages\framework-arduinoteensy\cores\teensy3\core_pins.h", Line=2006
+OpenDocument="Metro.cpp", FilePath="C:\users\alex wong\.platformio\packages\framework-arduinoteensy\libraries\Metro\Metro.cpp", Line=33
+OpenDocument="kinmatics.cpp", FilePath="c:\PlatformIO\miniRoboconRef19\src\kinmatics.cpp", Line=3
 OpenDocument="main.cpp", FilePath="C:\users\alex wong\.platformio\packages\framework-arduinoteensy\cores\teensy3\main.cpp", Line=20
-OpenDocument="mainArd.cpp", FilePath="c:\PlatformIO\miniRoboconRef19\src\mainArd.cpp", Line=20
+OpenDocument="mainArd.cpp", FilePath="c:\PlatformIO\miniRoboconRef19\src\mainArd.cpp", Line=40
 OpenToolbar="Debug", Floating=0, x=0, y=0
-OpenWindow="Source Files", DockArea=LEFT, x=0, y=0, w=417, h=296, FilterBarShown=1
-OpenWindow="Disassembly", DockArea=LEFT, x=0, y=1, w=417, h=301, FilterBarShown=0, ExecCountersShown=0
+OpenWindow="Source Files", DockArea=LEFT, x=0, y=1, w=417, h=211, FilterBarShown=1
+OpenWindow="Disassembly", DockArea=LEFT, x=0, y=2, w=417, h=212, FilterBarShown=0, ExecCountersShown=0
 OpenWindow="Source", x=0, y=0, w=0, h=0, FilterBarShown=0, ExecCountersShown=0
+OpenWindow="Break & Tracepoints", DockArea=LEFT, x=0, y=0, w=417, h=173, FilterBarShown=0
 OpenWindow="Watched Data", DockArea=RIGHT, x=0, y=0, w=562, h=598, FilterBarShown=0
 OpenWindow="Data Graph", DockArea=BOTTOM, x=0, y=0, w=1920, h=346, FilterBarShown=0, VisibleTab=0, SamplingFreq=1 kHz, ClearEvent=RESUME
 OpenWindow="Console", DockArea=BOTTOM, x=0, y=0, w=1920, h=346, FilterBarShown=0
 TableHeader="DataGraphSamples", SortCol="Index", SortOrder="ASCENDING", VisibleCols=["Index";"Time                    "], ColWidths=[77;48]
 TableHeader="Data Graph", SortCol="Expression", SortOrder="DESCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[194;67;196;196;196;91;78;98;89]
-TableHeader="Watched Data", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Size";"Refresh";"Type";"Access"], ColWidths=[151;173;73;35;54;76;45]
+TableHeader="Watched Data", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Size";"Refresh";"Type";"Access"], ColWidths=[151;173;73;35;54;76;63]
 TableHeader="Source Files", SortCol="File", SortOrder="ASCENDING", VisibleCols=["File";"Status";"Size";"#Insts";"Path"], ColWidths=[150;86;66;84;926]
 TableHeader="tableWidgetSamples", SortCol="Index", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Channel 0"], ColWidths=[72;102;108]
+TableHeader="Break & Tracepoints", SortCol="None", SortOrder="ASCENDING", VisibleCols=["";"Type";"Location";"Extras"], ColWidths=[38;71;97;211]
 WatchedExpression="deg", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_DEC
+WatchedExpression="calcSuccess", RefreshRate=5
+WatchedExpression="x", RefreshRate=5
+WatchedExpression="y", RefreshRate=5
+WatchedExpression="testLeg", RefreshRate=5

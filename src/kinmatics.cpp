@@ -11,8 +11,8 @@ void Leg::attach(uint8_t pinA, uint8_t pinB)
 
 void Leg::reset()
 {
-    servoA.write(10);
-    servoB.write(10);
+    servoA.write(45);
+    servoB.write(45);
 };
 
 bool Leg::travel(float x, float y)
