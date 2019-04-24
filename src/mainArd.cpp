@@ -181,8 +181,8 @@ void loop() {
 
                 for (int i = 40; i > 0; i--)//60
                 {
-                    BLLeg.travel(gaitXclimb[(i + 8) % gaitResolution], gaitYclimb[(i + 8) % gaitResolution]);
-                    BRLeg.travel(gaitXclimb[(i + 0) % gaitResolution], gaitYclimb[(i + 0) % gaitResolution]);
+                    BLLeg.travel(gaitX[(i + 8) % gaitResolution], gaitY[(i + 8) % gaitResolution]);
+                    BRLeg.travel(gaitX[(i + 0) % gaitResolution], gaitY[(i + 0) % gaitResolution]);
                     FLLeg.travel(gaitXclimb[(i + 12) % gaitResolution], gaitYclimb[(i + 12) % gaitResolution]);
                     FRLeg.travel(gaitXclimb[(i + 4) % gaitResolution], gaitYclimb[(i + 4) % gaitResolution]);
                     delay(TICK_MS);
@@ -239,7 +239,7 @@ void loop() {
 
                 BLLeg.travel(0, 0.05);
                 delay(TICK_MS * 7);
-                BLLeg.travel(-0.06, 0.06);
+                BLLeg.travel(-0.07, 0.07);
                 delay(TICK_MS * 7);
 
                 FLLeg.reset();

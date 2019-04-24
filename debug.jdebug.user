@@ -1,8 +1,11 @@
 GraphedExpression="calcSuccess", DisplayFormat=DISPLAY_FORMAT_DEC
-OpenDocument="pins_teensy.c", FilePath="C:/users/alex wong/.platformio/packages/framework-arduinoteensy/cores/teensy3/pins_teensy.c", Line=824
-OpenDocument="main.cpp", FilePath="C:/users/alex wong/.platformio/packages/framework-arduinoteensy/cores/teensy3/main.cpp", Line=20
+OpenDocument="Servo.cpp", FilePath="C:\users\alex wong\.platformio\packages\framework-arduinoteensy\libraries\Servo\Servo.cpp", Line=425
+OpenDocument="serial1.c", FilePath="C:\users\alex wong\.platformio\packages\framework-arduinoteensy\cores\teensy3\serial1.c", Line=442
+OpenDocument="mk20dx128.c", FilePath="C:\users\alex wong\.platformio\packages\framework-arduinoteensy\cores\teensy3\mk20dx128.c", Line=680
+OpenDocument="main.cpp", FilePath="C:\users\alex wong\.platformio\packages\framework-arduinoteensy\cores\teensy3\main.cpp", Line=20
+OpenDocument="pins_teensy.c", FilePath="C:\users\alex wong\.platformio\packages\framework-arduinoteensy\cores\teensy3\pins_teensy.c", Line=0
 OpenDocument="core_pins.h", FilePath="C:\users\alex wong\.platformio\packages\framework-arduinoteensy\cores\teensy3\core_pins.h", Line=2006
-OpenDocument="mainArd.cpp", FilePath="c:\PlatformIO\miniRoboconRef19\src\mainArd.cpp", Line=116
+OpenDocument="mainArd.cpp", FilePath="c:\PlatformIO\miniRoboconRef19\src\mainArd.cpp", Line=190
 OpenDocument="serial2.c", FilePath="C:\users\alex wong\.platformio\packages\framework-arduinoteensy\cores\teensy3\serial2.c", Line=431
 OpenDocument="serial6_lpuart.c", FilePath="C:\users\alex wong\.platformio\packages\framework-arduinoteensy\cores\teensy3\serial6_lpuart.c", Line=353
 OpenDocument="serial5.c", FilePath="C:\users\alex wong\.platformio\packages\framework-arduinoteensy\cores\teensy3\serial5.c", Line=267
@@ -14,11 +17,11 @@ OpenDocument="kinmatics.cpp", FilePath="c:\PlatformIO\miniRoboconRef19\src\kinma
 OpenDocument="EventResponder.h", FilePath="C:\users\alex wong\.platformio\packages\framework-arduinoteensy\cores\teensy3\EventResponder.h", Line=215
 OpenToolbar="Debug", Floating=0, x=0, y=0
 OpenWindow="Source Files", DockArea=LEFT, x=0, y=1, w=417, h=210, FilterBarShown=1
-OpenWindow="Disassembly", DockArea=LEFT, x=0, y=2, w=417, h=207, FilterBarShown=0, ExecCountersShown=0
+OpenWindow="Disassembly", DockArea=LEFT, x=0, y=2, w=417, h=206, FilterBarShown=0, ExecCountersShown=0
 OpenWindow="Source", x=0, y=0, w=0, h=0, FilterBarShown=0, ExecCountersShown=0
-OpenWindow="Break & Tracepoints", DockArea=LEFT, x=0, y=0, w=417, h=179, FilterBarShown=0
+OpenWindow="Break & Tracepoints", DockArea=LEFT, x=0, y=0, w=417, h=180, FilterBarShown=0
 OpenWindow="Watched Data", DockArea=RIGHT, x=0, y=0, w=562, h=598, FilterBarShown=0
-OpenWindow="Data Graph", DockArea=BOTTOM, x=0, y=0, w=1920, h=346, FilterBarShown=0, VisibleTab=0, SamplingFreq=1 kHz, ClearEvent=RESUME, LegendShown=0, ToolbarShown=1, UniformSampleSpacing=0, PinCursor=-1, TimePerDiv=1000000
+OpenWindow="Data Graph", DockArea=BOTTOM, x=0, y=0, w=1920, h=346, FilterBarShown=0, VisibleTab=0, SamplingFreq=1 kHz, ClearEvent=RESUME
 OpenWindow="Console", DockArea=BOTTOM, x=0, y=0, w=1920, h=346, FilterBarShown=0
 TableHeader="DataGraphSamples", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time                    ";" calcSuccess"], ColWidths=[77;48;58]
 TableHeader="Data Graph", SortCol="Expression", SortOrder="DESCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[194;67;196;196;196;91;78;98;89]
@@ -31,5 +34,5 @@ WatchedExpression="calcSuccess", RefreshRate=5
 WatchedExpression="x", RefreshRate=5
 WatchedExpression="y", RefreshRate=5
 WatchedExpression="testLeg", RefreshRate=5
-WatchedExpression="proceed", RefreshRate=5
-WatchedExpression="currentGait"
+WatchedExpression="proceed", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_HEX
+WatchedExpression="currentGait", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_HEX
